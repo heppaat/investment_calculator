@@ -32,7 +32,7 @@ const Results = ({ userInput }) => {
               <td>{formatter.format(data.valueEndOfYear)}</td>
               <td>{formatter.format(data.interest)}</td>
               <td>{formatter.format(totalInterest)}</td>
-              <td>{formatter.format(totalAmountInvested)}</td>
+              <td>{formatter.format(totalAmountInvested + 6)}</td>
             </tr>
           );
         })}
